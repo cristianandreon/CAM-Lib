@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.SubScene?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+
+<AnchorPane id="anchorPaneMain" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="-5.0" layoutY="-3.0" prefHeight="45.0" prefWidth="658.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Drawing" />
+          <Tab text="CAM" />
+            <Tab text="Machine" />
+        </tabs>
+      </TabPane>
+      <AnchorPane id="anchorPaneSub" layoutY="114.0" prefHeight="295.0" prefWidth="695.0">
+         <children>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
